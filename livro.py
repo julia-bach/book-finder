@@ -1,0 +1,62 @@
+class Livro:
+    def __init__(self, nome, autor, ano_publicacao, genero, idade_recomendada):
+        self.nome = nome
+        self.autor = autor
+        self.ano_publicacao = ano_publicacao
+        self.genero = genero
+        self.idade_recomendada = idade_recomendada
+        
+livros = [
+    Livro("Duna", "Frank Herbert", 1965, "Ficção Científica", 16),
+    Livro("O Hobbit", "J.R.R. Tolkien", 1937, "Fantasia", 12),
+    Livro("1984", "George Orwell", 1949, "Distopia", 16),
+    Livro("Orgulho e Preconceito", "Jane Austen", 1813, "Romance", 14),
+    Livro("Harry Potter e a Pedra Filosofal", "J.K. Rowling", 1997, "Fantasia", 10),
+    Livro("Cem Anos de Solidão", "Gabriel García Márquez", 1967, "Realismo Mágico", 18),
+    Livro("A Revolução dos Bichos", "George Orwell", 1945, "Sátira/Política", 14),
+    Livro("Dom Casmurro", "Machado de Assis", 1899, "Romance", 16),
+    Livro("O Senhor dos Anéis: A Sociedade do Anel", "J.R.R. Tolkien", 1954, "Fantasia", 14),
+    Livro("O Pequeno Príncipe", "Antoine de Saint-Exupéry", 1943, "Literatura Infantil/Fantasia", 8),
+    Livro("A Guerra dos Tronos", "George R.R. Martin", 1996, "Fantasia", 18),
+    Livro("Moby Dick", "Herman Melville", 1851, "Aventura", 16),
+    Livro("To Kill a Mockingbird", "Harper Lee", 1960, "Drama/Social", 14),
+    Livro("A Culpa é das Estrelas", "John Green", 2012, "Romance/Juvenil", 14),
+    Livro("A Metamorfose", "Franz Kafka", 1915, "Surrealismo", 16),
+    Livro("O Código Da Vinci", "Dan Brown", 2003, "Thriller/Mistério", 16),
+    Livro("Sapiens: Uma Breve História da Humanidade", "Yuval Noah Harari", 2011, "Não-ficção/História", 16),
+    Livro("A Arte da Guerra", "Sun Tzu", "Século V a.C.", "Estratégia/Militar", 14),
+    Livro("O Alquimista", "Paulo Coelho", 1988, "Ficção/Filosofia", 14),
+    Livro("O Nome da Rosa", "Umberto Eco", 1980, "Mistério/Histórico", 16),
+    Livro("O Grande Gatsby", "F. Scott Fitzgerald", 1925, "Romance", 14),
+    Livro("A Metamorfose", "Franz Kafka", 1915, "Ficção Surrealista", 16),
+    Livro("Os Miseráveis", "Victor Hugo", 1862, "Romance Histórico", 16),
+    Livro("O Conde de Monte Cristo", "Alexandre Dumas", 1844, "Aventura/Drama", 16),
+    Livro("O Estrangeiro", "Albert Camus", 1942, "Romance Filosófico", 16),
+    Livro("O Morro dos Ventos Uivantes", "Emily Brontë", 1847, "Romance", 14),
+    Livro("O Sol é para Todos", "Harper Lee", 1960, "Romance de Formação", 14),
+    Livro("As Aventuras de Huckleberry Finn", "Mark Twain", 1884, "Aventura", 12),
+    Livro("A Ilha do Tesouro", "Robert Louis Stevenson", 1883, "Aventura", 12),
+    Livro("O Chamado da Floresta", "Jack London", 1903, "Aventura", 12),
+    Livro("As Crônicas de Nárnia: O Leão, a Feiticeira e o Guarda-Roupa", "C.S. Lewis", 1950, "Fantasia", 10),
+    Livro("Neuromancer", "William Gibson", 1984, "Cyberpunk/Ficção Científica", 16),
+    Livro("Laranja Mecânica", "Anthony Burgess", 1962, "Distopia", 18),
+    Livro("Vinte Mil Léguas Submarinas", "Júlio Verne", 1870, "Ficção Científica", 12),
+    Livro("O Retrato de Dorian Gray", "Oscar Wilde", 1890, "Ficção Gótica", 16),
+    Livro("Fahrenheit 451", "Ray Bradbury", 1953, "Distopia", 16),
+    Livro("As Brumas de Avalon", "Marion Zimmer Bradley", 1982, "Fantasia Histórica", 16),
+    Livro("O Médico e o Monstro", "Robert Louis Stevenson", 1886, "Ficção Gótica", 14),
+    Livro("A Volta ao Mundo em 80 Dias", "Júlio Verne", 1872, "Aventura/Ficção Científica", 10),
+    Livro("Senhor das Moscas", "William Golding", 1954, "Romance Distópico", 14),
+    Livro("A Menina que Roubava Livros", "Markus Zusak", 2005, "Histórico/Drama", 14),
+    Livro("O Lobo da Estepe", "Hermann Hesse", 1927, "Romance Filosófico", 16),
+    Livro("A Casa dos Espíritos", "Isabel Allende", 1982, "Realismo Mágico", 16),
+    Livro("O Guia do Mochileiro das Galáxias", "Douglas Adams", 1979, "Ficção Científica", 12),
+    Livro("Cruzando o Caminho do Sol", "Cristina López Barrio", 2013, "Drama", 14),
+    Livro("A Culpa é das Estrelas", "John Green", 2012, "Romance", 14),
+    Livro("O Som e a Fúria", "William Faulkner", 1929, "Romance", 16),
+    Livro("O Talismã", "Stephen King", 1984, "Ficção/Fantasia", 16),
+    Livro("A Estrada", "Cormac McCarthy", 2006, "Ficção Pós-apocalíptica", 16),
+    Livro("Fahrenheit 451", "Ray Bradbury", 1953, "Distopia", 16),
+    Livro("O Homem Invisível", "H.G. Wells", 1897, "Ficção Científica", 16),
+    Livro("O Velho e o Mar", "Ernest Hemingway", 1952, "Drama", 14)
+]
